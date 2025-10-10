@@ -11,9 +11,9 @@ NestedInstallerFiles:
 Installers:
   - Architecture: x64
     InstallerUrl: https://github.com/kubetail-org/kubetail/releases/download/cli%2Fv0.9.0/kubetail-windows-amd64.zip
-    InstallerSha256: cebc21d7d9ab2bf38a322e403ae771c3ddb09bbedf3fa9037e2501e4d5a26045
+    InstallerSha256: ${AMD64_SHA}
   - Architecture: arm64
     InstallerUrl: https://github.com/kubetail-org/kubetail/releases/download/cli%2Fv0.9.0/kubetail-windows-arm64.zip
-    InstallerSha256: c95b3fdd06e2f4a6f835542fabe15274f2e06eec8523f65931fb47c25bc93c21
+    InstallerSha256: ${ARM64_SHA}
 ManifestType: installer
 ManifestVersion: 1.10.0
